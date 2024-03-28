@@ -1,0 +1,711 @@
+
+h2{
+  color: #e9e4e4; 
+}
+
+
+nav{
+    background-color: rgb(4, 4, 5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    display: inline;
+
+    font-size: 20px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color:rgb(253, 252, 252)
+}
+footer{
+    background-color: rgb(8, 8, 8);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+body{
+    background-color: aqua;
+}
+.Generalpage{
+    margin: 700 px auto;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    
+}
+.h1G{
+    color:rgb(255, 255, 255);
+    font-size: 70px;
+    text-align: center;
+    padding-bottom:0px;
+    text-shadow: 0 15px 10px rgb(226, 203, 203);
+}
+.Container{
+    
+    display: grid;
+    gap: 15px;
+    grid-template-columns:repeat(3, 1fr);
+   
+}
+.IT{
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+    
+}
+.IT img {
+    height: 70px;
+}
+.IT h3{
+    color:rgb(15, 13, 13)
+    font-size 20px;
+    padding: 10px 0;
+}
+.IT p{
+    color: black;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.bnt{
+    color: rgb(11, 4, 84);
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: color(xyz-d50 red green blue);
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+.bnt:hover{
+    letter-spacing: 1px;
+    
+}
+.IT:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+@media(max-width:770px){
+    .Generalpage{
+        padding: 20px;
+    }
+}
+
+/*staly.CSS readMdeveloper HTML*/
+
+.GeneralpagereadMdeveloper{
+    margin: 4%;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    
+}
+.ContainerDevelper{
+    display: grid;
+    gap: 15px;
+    grid-template-columns:repeat(2, 1fr);
+}
+.ITdeveloper{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+}
+.ITdeveloperSum{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+    grid-row: 1/3;
+}
+.ITdeveloper:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+.ITdeveloperSum:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+@media(max-width:770px){
+    .Generalpage{
+        padding: 20px;
+    }
+}
+
+.ITdeveloperSum h1{
+    color:rgb(2, 4, 51);
+    font-size:30px;
+    padding: 10px 0;
+    text-align: start;
+
+}
+.ITdeveloperSum p{
+    color: rgb(19, 26, 225);
+    font-size: 30px;
+    line-height: 2;
+    text-align: justify;
+   
+}
+
+.ITdeveloper img {
+    height: 320px;
+}
+.ITdeveloper p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/*staly.CSS readMsolarenergy HTML*/
+
+
+.Generalpagesolarenergy{
+    margin: 4%;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    
+}
+.Containersolarenergy{
+    display: grid;
+    gap: 15px;
+    grid-template-columns:repeat(2, 1fr);
+}
+.Solarenergy{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+}
+.SolarenergySum{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+    grid-row: 1/3;
+}
+.Solarenergy:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+.SolarenergySum:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+@media(max-width:770px){
+    .Generalpage{
+        padding: 20px;
+    }
+}
+
+.SolarenergySum h1{
+    color:rgb(2, 4, 51);
+    font-size:30px;
+    padding: 10px 0;
+    text-align: start;
+
+}
+.SolarenergySum p{
+    color: rgb(19, 26, 225);
+    font-size: 30px;
+    line-height: 2;
+    text-align: justify;
+   
+}
+
+.Solarenergy img {
+    height: 320px;
+}
+.Solarenergy p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/*staly.CSS readMwindpower HTML*/
+
+
+.Generalpagewindpower{
+    margin: 4%;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    
+}
+.Containerwindpower{
+    display: grid;
+    gap: 15px;
+    grid-template-columns:repeat(2, 1fr);
+}
+.Windpower{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+}
+.WindpowerSum{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+    grid-row: 1/3;
+}
+.Windpower:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+.WindpowerSum:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+@media(max-width:770px){
+    .Generalpage{
+        padding: 20px;
+    }
+}
+
+.WindpowerSum h1{
+    color:rgb(2, 4, 51);
+    font-size:30px;
+    padding: 10px 0;
+    text-align: start;
+
+}
+.WindpowerSum p{
+    color: rgb(19, 26, 225);
+    font-size: 30px;
+    line-height: 2;
+    text-align: justify;
+   
+}
+
+.Windpower img {
+    height: 320px;
+}
+.Windpower p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/*staly.CSS ControlIndustril.HTML*/
+
+
+.Generalpagecontrolindustrial{
+    margin: 4%;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    
+}
+.Containercontrolindustrial{
+    display: grid;
+    gap: 15px;
+    grid-template-columns:repeat(2, 1fr);
+}
+.Controlindustrial{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+}
+.ControlindustrialSum{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+    grid-row: 1/3;
+}
+.Controlindustrial:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+.ControlindustrialSum:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+@media(max-width:770px){
+    .Generalpage{
+        padding: 20px;
+    }
+}
+
+.ControlindustrialSum h1{
+    color:rgb(2, 4, 51);
+    font-size:30px;
+    padding: 10px 0;
+    text-align: start;
+
+}
+.ControlindustrialSum p{
+    color: rgb(19, 26, 225);
+    font-size: 30px;
+    line-height: 2;
+    text-align: start;
+   
+}
+
+.Controlindustrial img {
+    height: 320px;
+}
+.Controlindustrial p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/*staly.CSS EFFICENSE ENERGY*/
+
+.GeneralpageEffisence{
+    margin: 4%;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    
+}
+.ContainerEffisence{
+    display: grid;
+    gap: 15px;
+    grid-template-columns:repeat(2, 1fr);
+}
+.Effisence{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+}
+.EffisenceSum{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+    grid-row: 1/3;
+}
+.Effisence:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+.EffisenceSum:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+@media(max-width:770px){
+    .Generalpage{
+        padding: 20px;
+    }
+}
+
+.EffisenceSum h1{
+    color:rgb(2, 4, 51);
+    font-size:30px;
+    padding: 10px 0;
+    text-align: start;
+
+}
+.EffisenceSum p{
+    color: rgb(19, 26, 225);
+    font-size: 30px;
+    line-height: 2;
+    text-align: start;
+   
+}
+
+.Effisence img {
+    height: 320px;
+}
+.Effisence p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/*staly.CSS CHANGE ELECTRICAL*/
+
+.GeneralpageChange{
+    margin: 4%;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    
+}
+.ContainerChange{
+    display: grid;
+    gap: 15px;
+    grid-template-columns:repeat(2, 1fr);
+}
+.Change{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+}
+.ChangeSum{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+    grid-row: 1/3;
+}
+.Change:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+.ChangeSum:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+@media(max-width:770px){
+    .Generalpage{
+        padding: 20px;
+    }
+}
+
+.ChangeSum h1{
+    color:rgb(2, 4, 51);
+    font-size:30px;
+    padding: 10px 0;
+    text-align: start;
+
+}
+.ChangeSum p{
+    color: rgb(19, 26, 225);
+    font-size: 30px;
+    line-height: 2;
+    text-align: start;
+   
+}
+
+.Change img {
+    height: 320px;
+}
+.Change p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/*staly.CSS about html*/
+
+.Generalpageabout{
+    margin: 4%;
+    padding: 0 10%;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    
+}
+.Containerabout{
+    display: grid;
+    gap: 15px;
+    grid-template-columns:repeat(2, 1fr);
+}
+.about{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+}
+.aboutSum{
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0px 5px 10px rgb(14, 13, 13);
+    grid-row: 1/1;
+}
+.about:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+.aboutSum:hover{
+
+    transform: scale(1.03);
+    box-shadow: 0,10px 15px srgb rgb(10, 9, 9)  
+}
+@media(max-width:770px){
+    .Generalpage{
+        padding: 20px;
+    }
+}
+
+.aboutSum h1{
+    color:rgb(2, 4, 51);
+    font-size:30px;
+    padding: 10px 0;
+    text-align: justify center;
+
+}
+.aboutSum p{
+    color: rgb(19, 26, 225);
+    font-size: 30px;
+    line-height: 2;
+    text-align: justify ;
+   
+}
+
+.about img {
+    height: 320px;
+}
+.about p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/*staly.CSS SERVICES*/
+
+.containerServices{
+    
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    margin:80px 80px 0 auto;
+    padding: 0 20%;
+    gap: 15px;
+   
+   
+}
+
+.containerServices .boxServices{
+
+    position: relative;
+    width: 320px;
+    height: 400px;
+    color: rgb(244, 249, 253);
+    background-color: rgb(239, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+    transition: 0.5s;
+}
+.containerServices .boxServices:hover{
+    transform: translateY(-20px);
+}
+.containerServices .boxServices::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#cfaeae,#ad3434);
+
+}
+.containerServices .boxServices::after{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#cfaeae,#ad3434);
+    filter:blur(30px) ;
+
+}
+.containerServices .boxServices:nth-child(2)::before,
+.containerServices .boxServices:nth-child(2)::after
+{
+    background: linear-gradient(315deg,#e5e1e1,#e70f0f);
+}
+
+.containerServices .boxServices:nth-child(3)::before,
+.containerServices .boxServices:nth-child(3)::after
+{
+    background: linear-gradient(315deg,#accf8a,#81adbd);
+}
+.containerServices .boxServices span
+{
+    position: absolute;
+    top:6px;
+    left: 6px;
+    right: 6px;
+    bottom: 6px;
+    background: rgba(0,0,0,0.6);
+    z-index: 2;
+}
+.containerServices .boxServices span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    pointer-events: none;
+
+}
+
+.containerServices .boxServices .contentServices{
+    position: relative;
+    z-index: 10;
+    padding: 20px 40px;
+}
+.containerServices .boxServices .contentServices h2
+{
+    font-size: 2em;
+    color: #e5e1e1;
+    margin-bottom: 10px;
+
+}
+.containerServices .boxServices .contentServices p
+{
+    font-size: 2em;
+    color: #e5e1e1;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+
+}
+h2{
+    
+    color:rgb(248, 244, 244)
+    
+
+}
+
+
+
+
+
+
+
+    
+
